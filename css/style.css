@@ -39,6 +39,7 @@ img {
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #E5E5E5;
 }
 .header .container {
     display: flex;
@@ -153,8 +154,6 @@ img {
 /* END HERO */
 
 /* ABOUT */
-.about .container {
-}
 .about-quality-title {
     font-weight: bold;
     font-size: 14px;
@@ -288,6 +287,18 @@ img {
 
 
 /* PORTFOLIO MAIN */
+
+.projects-type-list {
+    display: flex;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding-left: 295px;
+}
+.projects-type-item {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
 .projects-type-btn {
     font-family: inherit;
     background-color: var(--background-btn);
@@ -296,6 +307,9 @@ img {
     line-height: 1.63;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border: 0px;
+    padding: 6px 22px;
+    border-radius: 5px;
 }
 .projects-type-btn:hover, .projects-type-btn:focus {
     background-color: var(--accept-color);
@@ -313,5 +327,22 @@ img {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.project-item {
+    flex-basis: calc(100% / 9 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.project-img-content {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 24px;
 }
 /* END PORTFOLIO MAIN */
